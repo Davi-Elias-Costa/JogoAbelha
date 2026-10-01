@@ -29,9 +29,12 @@ class Aranha extends obj{
         }
     }
 }
-class BG extends obj(){
-mover(){
-    this.posy += 3
+class BG extends obj{
+mover(velocidade,limite,posI){
+    this.posy += velocidade
+     if(this.posy > limite){
+        this.posy = posI
 
-       }
+        }
+    }
 }
