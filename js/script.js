@@ -32,6 +32,7 @@ function draw(){
 function update(){
     abelha.mover()
     aranha.mover()
+    bg.mover()
 }
 
 function main(){

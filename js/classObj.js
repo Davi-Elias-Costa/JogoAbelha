@@ -29,3 +29,9 @@ class Aranha extends obj{
         }
     }
 }
+class BG extends obj(){
+mover(){
+    this.posy += 3
+
+       }
+}
